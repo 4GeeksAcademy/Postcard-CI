@@ -1,0 +1,91 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: black;
+   
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+.card {
+    width: 650px;
+    margin: 100px auto;
+    background: whitesmoke;
+    padding: 25px;
+}
+
+
+.text {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+
+.word { 
+    width: 55%;
+}
+
+.word h1 {
+    font-size: 38px;
+    margin-bottom: 20px;
+}
+
+.word p {
+    font-size: 20px;
+    margin-bottom: 15px;
+    line-height: 1.2;
+}
+
+
+.datos {
+    width: 40%;
+    display: flex;
+    flex-direction: column; 
+    align-items: flex-end;  
+}
+
+
+.logo {
+    height: 65px;
+    margin-bottom: 20px;
+}
+
+.logo img {
+    height: 100%;
+    width: auto;
+}
+
+
+input {
+    width: 100%;
+    padding: 6px 4px;
+    margin-bottom: 15px;
+    border: 0;
+    border-bottom: 1px solid #555;
+    background: transparent;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 14px;
+}
+
+.button {
+    text-align: center;
+    margin-top: 15px;
+}
+
+button {
+    padding: 6px 15px;
+    font-size: 18px;
+    background-color: #bebebe;
+    border: none;
+    cursor: pointer;
+    font-family:monospace;
+}
+
+button:hover {
+    background-color: #a8a8a8;
+}
